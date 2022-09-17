@@ -148,11 +148,6 @@ Podrás aprender más de este tema en Curso de Consumo de API REST con JavaScrip
 
 Las pruebas de seguridad o pentesting consiste en buscar las vulnerabilidades que puede tener un software o sistema.
 
-Para conocer más información te invitamos a explorar los cursos:
-
-    Curso de Fundamentos de Pentesting
-    Curso de Pentesting a Redes
-
 ### Pruebas de rendimiento
 
 Las pruebas de rendimiento son pruebas no funcionales que consisten en evaluar la estabilidad y la capacidad de respuesta del software.
