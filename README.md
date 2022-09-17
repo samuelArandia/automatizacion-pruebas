@@ -165,3 +165,174 @@ Estas pruebas deben superarse con éxito antes del despliegue.
 Las pruebas de interfaces de usuario (UI) consisten en evaluar que el producto actúe correctamente.
 
 Aquí se desarrollan las pruebas end-to-end, que consisten en analizar un flujo de principio a fin.
+
+## Tipos de framework de automatización
+
+Un framework (marco de trabajo) dará pautas, estructura e incluso buenas prácticas para probar un sistema, lo que provocará seguir un estándar para facilitar el trabajo en equipo.
+
+Algunos de los frameworks más famosos o más usados son:
+
+-Capture/Playback
+
+-Linear Scripting
+
+-Structured Scripting
+
+-Module Based
+
+-Data-driven
+
+-Keyword-driven
+
+-Hybrid
+
+-Behavior Driven Development (BDD)
+
+### Frameworks de pruebas más usados
+
+A continuación se explicarán los frameworks de pruebas más usados:
+
+### Capture/Playback: El framework Capture/Playback consiste en grabar con una herramienta lo que el usuario ejecuta y reproducirlo como casos de prueba (scripts) grabados.
+
+Las ventajas de capture/playback son:
+
+-El enfoque captura/reproducción se puede utilizar para el System Under Test (sistema bajo prueba, SUT) en el nivel de una interfaz de usuario y/o API.
+
+-Es fácil de configurar y usar para alguien sin experiencia previa.
+
+Las desventajas de capture/playback son:
+
+-Es difícil de mantener, porque es necesario grabar la aplicación cada vez que esta cambie.
+
+-La implementación de los casos de prueba (scripts) solo puede comenzar hasta que el sistema esté disponible.
+
+### Linear Scripting
+
+El framework Linear Scripting se asemeja a Capture/Playback, pero se diferencia en que el linear scripting permite observar y manipular el código grabado, mientras que en el Caputure/playback es inaccesible. Algunos autores los agrupan en el mismo tipo.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837371-5d1a35c5-6423-4441-a48a-1f338305d7cd.png)
+
+Las ventajas de linear scripting son:
+
+-Se puede utilizar parar probar el sistema a nivel de interfaz de usuario y/o API.
+-Fácil de configurar.
+
+Las desvetajas de linear scripting son:
+
+- El costo de mantenimiento es lineal, no se pueden reutilizar los scripts, por lo que en productos grandes no es recomendable.
+
+- La cantidad de esfuerzo es lineal, para cada caso de prueba necesitas un archivo de código.
+
+- Es difícil de mantener, porque es necesario grabar la aplicación cada vez que cambie.
+
+### Structured Scripting
+
+El framework Structured Scripting permite reutilizar el código de los casos de prueba.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837429-81109e51-e459-48f3-b479-1fa8f8394d72.png)
+
+Las ventajas de structured scripting son:
+
+-Existe una reducción del mantenimiento, por la reutilización de código.
+
+-Reutilización de secuencias de comandos.
+
+-Reducción de costos de construcción y manteniento.
+
+Las desventajas de structured scripting son:
+
+-Requiere un mayor esfuerzo inicial, tratar de dividir los scripts para que sean reutilizables.
+
+-El equipo o encargado debe poseer habilidades de programación.
+
+-Se necesita una buena administración.
+
+### Module Based
+
+El framework Module Based se basa en módulos relacionados con los principios de la programación orientada a objetos (POO). Los módulos están separados por una capa de abstracción, de tal forma que los cambios puedan ser realizados en las secciones de la aplicación.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837513-b7c91b2b-b3f5-4d15-a43e-23061fe4688f.png)
+
+Las ventajas del Module Based son:
+
+-Escalabilidad, podrás heredar atributos o propiedades en el código siguiendo la programación orientada a objetos.
+
+- Flexibilidad y facilidad de mantenimiento.
+
+- Modularización.
+
+Las desventajas de Module Based son:
+
+- No se tiene flexibilidad en los datos, la información debe estar escrita en el código.
+
+### Data-Driven
+
+El framework Data-Driven se basa en una estructura semejante a la de Module Based, la diferencia es que maneja entradas de datos al ser ingresados por el usuario, sin la necesidad de tener la información en el código.
+
+Por ejemplo, si se requiere probar un inicio de sesión, no es necesario ir al código y cambiar las credenciales manualmente, sino extraer la información de un archivo de Excel, bases de datos, API, entre otros.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837554-ea553539-2cfb-4002-9e4c-68d7f096320c.png)
+
+Las ventajas de Data driven son:
+
+- Comparado con los frameworks anteriores, el costo se reduce considerablemente, ya que la información es más fácil de manejar.
+
+- Aumenta la cobertura, porque será más fácil cubrir diferentes escenarios y probar la aplicación con diferentes valores.
+ 
+- Flexibilidad de ejecución.
+
+Las desventajas de Data driven son:
+
+- Esfuerzo adicional para establecer, configurar y mantener las fuentes de datos.
+
+- Dominio de algún lenguaje de programación.
+
+### Keyword-Driven
+
+El framework Keyword-Driven consiste en realizar acciones en el código a través de una palabra reservada (keyword). Lo que hará será activar una determinada acción según el procedimiento (step number), por ejemplo en la siguiente imagen observarás que primero se ejecutará un inicio de sesión (login), después un clic en un botón (clickButton) y así sucesivamente.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837592-46c0350a-a8d9-4f1a-a3be-c4683d2022e3.png)
+
+Las ventajas de Keyword-driven son:
+
+- Flexibilidad en la creación de pruebas, porque puedes utilizar cualquier combinación de pasos.
+
+- Reutilización de código y, por lo tanto, el costo de mantenimiento es menor.
+
+- No se requiere conocimiento de las secuencias de comando, solo se necesita conocer qué hace cada palabra clave (keyword).
+
+Las desventajas de Keyword-driven son:
+
+- Incremento de dificultad a medida que se introducen nuevas palabras clave.
+
+- Complejidad de aprendizaje.
+
+### Hybrid (Data-driven + Keyword-driven)
+
+El framework Hybrid consiste en una combinación de Data-driven y Keyword-driven, en el cual se tiene la información que desea utilizar en una acción determinada por la palabra clave (keyword) en un determinado paso (step number).
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837651-06fdaa20-4e3c-4ef4-8422-315e1c4c9f17.png)
+
+### Behavior Driven Development
+
+El framework Behavior Driven Development (BDD) es un marco de desarrollo impulsado por el desarrollo que contiene un lenguaje sencillo de leer para cualquiera. Normalmente, se utiliza un lenguaje natural Gherkin que consta de tres partes:
+
+-Given: nos da las precondiciones de la prueba.
+
+-When: nos da el detonante de la acción.
+
+-Then: permite validar con un criterio de aceptación.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190837691-e1d81e7c-e25c-4741-a44d-79c709971d58.png)
+
+Las ventajas de BDD son:
+
+- Existe una mayor compatibilidad entre historias de usuario y casos de prueba (test cases).
+- Claridad en los casos de prueba.
+- Hay una reutilización de código, porque cada sentencia tiene un componente reutilizable.
+- Es Data-Driven, porque tiene una funcionalidad llamada escenarios outline que permiten guardar información y utilizarla.
+
+Las desventajas de BDD son:
+
+- Mayor dedicación de tiempo.
+- Mayor tiempo de planificación en la estructura del código y sus sentencias 
