@@ -338,3 +338,43 @@ Las desventajas de BDD son:
 
 - Mayor dedicación de tiempo.
 - Mayor tiempo de planificación en la estructura del código y sus sentencias 
+
+## Proceso de automatización de pruebas 
+
+El proceso de automatización de pruebas consiste en integrar tus conocimientos de automatización, ventajas, desventajas, frameworks con tu flujo de trabajo o el de la empresa.
+
+Ciclo de desarrollo de una aplicación o de una solución automatizada
+
+![imagen](https://user-images.githubusercontent.com/83564327/190838881-c622a2a8-9aa1-49ca-b669-324d252c2444.png)
+
+Este ciclo es muy parecido al proceso que se emplea para el desarrollo de un sistema:
+
+    Análisis
+    Diseño
+    Desarrollo
+    Test
+    Deploy
+    Evolución
+
+¿Cómo se integra con otras metodologías?
+
+El proceso de automatización de pruebas se integra con otras metodologías, como Scrum, de la siguiente manera:
+
+![imagen](https://user-images.githubusercontent.com/83564327/190838924-8eee866c-398b-4020-9ecd-bfc484a15049.png)
+
+-El análisis de la automatización se basa en el diseño del sistema de desarrollo
+
+-El test requiere del despliegue de la automatización, ya que no es posible probar el sistema si la solución de la prueba no está lista para utilizarla.
+
+¿Cómo se integra con un equipo de pruebas manuales?
+
+El proceso de automatización de prueba se integra con otras metodologías y con pruebas manuales de la siguiente manera:
+
+![imagen](https://user-images.githubusercontent.com/83564327/190838934-0320b462-f489-4084-8ba8-f6fe8325f7d7.png)
+
+
+-El diseño del sistema también va a mejorar el análisis de las pruebas manuales.
+
+-El despliegue de las pruebas manuales mejorará el análisis de la automatización de pruebas.
+
+Por otro lado, no se podrá realizar una prueba en el sistema sin un despliegue de las pruebas automáticas y manuales. Esto permite desarrollar pruebas más estables y flujos que el negocio necesite.
