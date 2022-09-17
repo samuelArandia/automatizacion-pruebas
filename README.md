@@ -315,6 +315,8 @@ El framework Hybrid consiste en una combinación de Data-driven y Keyword-driven
 
 ### Behavior Driven Development
 
+![imagen](https://user-images.githubusercontent.com/83564327/190837775-b61c743a-9f9d-461a-baf2-981de1804c41.png)
+
 El framework Behavior Driven Development (BDD) es un marco de desarrollo impulsado por el desarrollo que contiene un lenguaje sencillo de leer para cualquiera. Normalmente, se utiliza un lenguaje natural Gherkin que consta de tres partes:
 
 -Given: nos da las precondiciones de la prueba.
