@@ -412,3 +412,43 @@ Las ventajas que conlleva una integración y despliegue continuo son:
 -Aumento en la productividad y disminución de tiempos, permitiendo a los desarrolladores dedicar más tiempo a la solución de otros errores.
 
 Finalmente, no existen desventajas en el uso de pruebas automatizadas en el flujo de integración y despliegue continuo.
+
+## Herramientas para automatización de pruebas 
+
+Existen varias herramientas para la automatización de pruebas, dependiendo para qué las vas a utilizar.
+
+Los siguientes ejemplos son software de código abierto, pero existen aplicaciones de pago que te ofrecerán servicios para mejorar tu desarrollo, como el soporte, configuración, solución de problemas. Por lo que debes ser capaz de evaluar las ventajas y desventajas de una herramienta de pago.
+
+## Unit testing
+
+Para pruebas unitarias, algunas herramientas para la automatización de pruebas son:
+
+-Jest y Mocha: se utilizan con el lenguaje de programación JavaScript
+-React/Vue Testing Library: para pruebas en el frontend
+-Enzyme
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858568-5aa320b9-646c-48c4-8674-61313c5e65d2.png)
+
+## API testing
+
+Para API testing, algunas herramientas para probar endpoints son: Rest assured, Postman, Insomnia.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858588-4652a122-9a6d-462a-a704-d775e83dcc0f.png)
+
+Web browser testing
+
+Para Web browser testing, algunas herramientas para interactuar con el navegador son: Selenium, Puppeteer, Playwright, Testcafe, Cypress.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858609-bb14f4b0-0936-44b2-aa2b-0a21abfc4137.png)
+
+##Mobile testing
+
+Para Mobile testing, algunas herramientas para la automatización de pruebas son: Appium, Detox, Calabash.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858629-0d1b7f15-36b5-46ef-9994-0db4910d5f8c.png)
+
+## Performance
+
+Algunas herramientas para probar el rendimiento son: Jmeter, Gatling.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858645-9f62bb13-ae64-44b7-8bde-7fc7515c877e.png)
