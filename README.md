@@ -378,3 +378,37 @@ El proceso de automatización de prueba se integra con otras metodologías y con
 -El despliegue de las pruebas manuales mejorará el análisis de la automatización de pruebas.
 
 Por otro lado, no se podrá realizar una prueba en el sistema sin un despliegue de las pruebas automáticas y manuales. Esto permite desarrollar pruebas más estables y flujos que el negocio necesite.
+
+## Automatización de pruebas en CI-CD
+
+La industria del software evoluciona rápidamente, por lo tanto, se debe construir y entregar valor constantemente. La integración continua y el despliegue continuo (CI/CD) consiste en distribuir las aplicaciones lo más rápido posible con la ayuda de la automatización de pruebas.
+
+En la siguiente imagen observarás la forma convencional (Waterfall approach) frente a la integración y despliegue continuo (CI/CD). La diferencia principal es la interconectividad del desarrollo del CI/CD.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858348-8312daed-9dc9-44d3-8f46-3b213eb1d61a.png)
+
+## Ejemplos de soluciones automatizadas
+
+El primer ejemplo consiste en un repositorio de código (GitHub, GitLab, entre otros), en el cual se construyen las soluciones (Build system), después se implementan las pruebas (Test framework), y finalmente se libera y despliega.
+
+Esto ocurre cuando realizas un commit a una rama principal, entonces se ejecuta el build, después se realizan las pruebas. Esto permite integrar, liberar y desplegar de manera constante.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858370-b336c0f1-d9d4-4c67-ba1a-856f333b7622.png)
+
+Pero esto puede cambiar dependiendo de las necesidades de la aplicación o de la empresa, por lo que puedes añadir más pasos, otras pruebas, validaciones, pero manteniendo el despliegue continuo.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190858390-25ccfc1a-43a8-4fed-b66a-33ad06cf5b17.png)
+
+Beneficios de la automatización de pruebas en CI/CD
+
+Las ventajas que conlleva una integración y despliegue continuo son:
+
+-Mayor agilidad para un desarrollo más rápido.
+
+-Disminución de costos por la automatización de pruebas manuales y por la rapidez de entrega de valor de un producto.
+
+-Mayor seguridad en el despliegue a producción, evitando introducir bugs al momento de entregar el producto.
+
+-Aumento en la productividad y disminución de tiempos, permitiendo a los desarrolladores dedicar más tiempo a la solución de otros errores.
+
+Finalmente, no existen desventajas en el uso de pruebas automatizadas en el flujo de integración y despliegue continuo.
