@@ -435,13 +435,13 @@ Para API testing, algunas herramientas para probar endpoints son: Rest assured, 
 
 ![imagen](https://user-images.githubusercontent.com/83564327/190858588-4652a122-9a6d-462a-a704-d775e83dcc0f.png)
 
-Web browser testing
+## Web browser testing
 
 Para Web browser testing, algunas herramientas para interactuar con el navegador son: Selenium, Puppeteer, Playwright, Testcafe, Cypress.
 
 ![imagen](https://user-images.githubusercontent.com/83564327/190858609-bb14f4b0-0936-44b2-aa2b-0a21abfc4137.png)
 
-##Mobile testing
+## Mobile testing
 
 Para Mobile testing, algunas herramientas para la automatización de pruebas son: Appium, Detox, Calabash.
 
